@@ -1,6 +1,5 @@
 # Desarrollo web 1
-## Tecnicatura en Desarrollo de Aplicaciones
-## Universidad Nacional de Tierra del Fuego
+## Tecnicatura en Desarrollo de Aplicaciones, Universidad Nacional de Tierra del Fuego
 
 Este repositorio contiene ejemplos y código ofrecido a los alumnos de la materia Desarrollo Web 1, de la carrera Tecnicatura en Desarrollo de Aplicaciones, de la Universidad Nacional de Tierra del Fuego.
 

@@ -1,0 +1,172 @@
+// --------------------------------------------
+// VARIABLES
+// --------------------------------------------
+$font-main: Georgia, "Times New Roman", serif;
+$color-text: #333;
+$color-bg-mobile: #fff;
+$color-bg-desktop: #f9f5ee;
+$color-bg-html: #f7e9cd;
+
+$color-title: #2c3e50;
+$color-subtitle: #34495e;
+$color-muted: #666;
+
+$color-border: #ccc;
+$color-border-desktop: #ddd;
+
+$color-link: #2980b9;
+
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 2rem;
+
+// --------------------------------------------
+// MIXINS
+// --------------------------------------------
+
+// Fuente base para párrafos y listas
+@mixin text-base($size: 1rem, $align: justify) {
+    font-size: $size;
+    text-align: $align;
+    margin-bottom: $spacing-md;
+}
+
+// Títulos
+@mixin heading($size, $color) {
+    font-size: $size;
+    color: $color;
+    margin-top: $spacing-lg;
+}
+
+// Media query desktop
+@mixin desktop {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+// --------------------------------------------
+// RESET
+// --------------------------------------------
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// --------------------------------------------
+// ESTILOS GENERALES
+// --------------------------------------------
+html {
+    font-family: $font-main;
+    background-color: $color-bg-mobile;
+
+    @include desktop {
+        margin: 5rem auto;
+        background-color: $color-bg-html;
+    }
+}
+
+body {
+    line-height: 1.6;
+    padding: $spacing-md;
+    color: $color-text;
+    background-color: $color-bg-mobile;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+
+    @include desktop {
+        padding: $spacing-lg;
+        max-width: 900px;
+        margin: auto;
+        background-color: $color-bg-desktop;
+        border: 1px solid $color-border-desktop;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    }
+
+    h1 {
+        @include heading(2rem, $color-title);
+        text-align: center;
+        margin-bottom: $spacing-md;
+
+        @include desktop {
+            font-size: 3rem;
+        }
+    }
+
+    h2 {
+        @include heading(1.4rem, $color-subtitle);
+        border-bottom: 1px solid $color-border;
+        padding-bottom: 0.2rem;
+        margin-bottom: $spacing-sm;
+
+        @include desktop {
+            font-size: 2rem;
+        }
+    }
+
+    h3 {
+        @include heading(1.2rem, #555);
+
+        @include desktop {
+            font-size: 1.5rem;
+        }
+    }
+
+    p {
+        @include text-base();
+
+        @include desktop {
+            font-size: 1.1rem;
+        }
+    }
+
+    a {
+        color: $color-link;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    ul {
+        padding-left: 1.5rem;
+        margin-bottom: $spacing-lg;
+
+        li {
+            margin-bottom: $spacing-sm;
+            font-size: 1rem;
+
+            @include desktop {
+                font-size: 1.1rem;
+            }
+        }
+    }
+
+    div {
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: $spacing-md auto $spacing-sm;
+            border: 1px solid $color-border;
+            border-radius: 6px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 0.85rem;
+            font-style: italic;
+            color: $color-muted;
+            margin-bottom: $spacing-lg;
+
+            @include desktop {
+                font-size: 1rem;
+            }
+        }
+    }
+}
