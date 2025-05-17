@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+html {
+  font-size: 16pt;
+  margin: 2em;
+}
+
+body {
+  margin: 0;
+}
+
+#intro h1 {
+  color: #8e0614;
+}
+#intro p {
+  font-size: 1.2em;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
+.destacado {
+  background-color: #148314;
+  color: rgb(200, 200, 200);
+  padding: 1em;
+}
+
+.otro-destacado {
+  background-color: #8e0614;
+  color: rgb(200, 200, 200);
+  padding: 2em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+.float-izquierda {
+  float: left;
+  margin: 1em 1em 1em 0;
+}
+
+.float-derecha {
+  float: right;
+  margin: 1em 0 1em 1em;
+}
+
+/*# sourceMappingURL=galileo-screen.css.map */

@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+html {
+  font-size: 30pt;
+  margin: 2em;
+}
+
+body {
+  margin: 0;
+}
+
+#intro h1 {
+  color: #cc2233;
+}
+#intro p {
+  font-size: 1.2em;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  margin-bottom: 1em;
+}
+
+.destacado {
+  background-color: #ccffcc;
+  color: rgb(200, 200, 200);
+  padding: 1em;
+}
+
+.otro-destacado {
+  background-color: #cc2233;
+  color: rgb(200, 200, 200);
+  padding: 2em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+.float-izquierda {
+  float: left;
+  margin: 1em 1em 1em 0;
+}
+
+.float-derecha {
+  float: right;
+  margin: 1em 0 1em 1em;
+}

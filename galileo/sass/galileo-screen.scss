@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+ 
+$rojo: #8e0614;
+$verde: #148314;
+$gris-clarito: rgb(200,200,200);
+
+@mixin destacar($p, $bc) {
+    background-color: $bc;
+    color: $gris-clarito;
+    padding: $p;
+}
+
+html {
+    font-size: 16pt;
+    margin: 2em;
+}
+
+body {
+    margin: 0;
+}
+
+#intro {
+    h1 { color: $rojo; }
+    p { font-size: 1.2em; }
+}
+
+
+h1 {
+    font-family: "Pacifico", cursive;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+.destacado {
+    @include destacar(1em, $verde);
+}
+
+.otro-destacado {
+    @include destacar(2em, $rojo);
+}
+
+p {
+    margin: 1em 0;
+}
+
+.float-izquierda {
+    float: left;
+    margin: 1em 1em 1em 0;
+}
+
+.float-derecha {
+    float: right;
+    margin: 1em 0 1em 1em;
+}
