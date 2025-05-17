@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/subir-video" method="post" enctype="multipart/form-data">
+        <h1>Subir nuevo video</h1>
+        <section>
+            <label for="titulo">Título del video:</label>
+            <input type="text" id="titulo" name="titulo" required>
+        </section>
+        <section>
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" name="descripcion"></textarea>
+        </section>
+        <section>
+            <label for="archivo">Archivo de video:</label>
+            <input type="file" id="archivo" name="video" required>
+        </section>
+        <section>
+            <label for="categoria">Categoría:</label>
+            <select id="categoria" name="categoria" required>
+                <option value="">Seleccioná una categoría</option>
+                <option value="musica">Música</option>
+                <option value="educacion">Educación</option>
+                <option value="deportes">Deportes</option>
+            </select>
+        </section>
+        <section>
+            <input type="radio" id="publico" name="visibilidad" value="publico" checked>
+            <label for="publico">Público</label>
+            <input type="radio" id="privado" name="visibilidad" value="privado">
+            <label for="privado">Privado</label>
+        </section>
+        <section>
+            <button type="submit">Subir video</button>
+        </section>
+    </form>
+</body>
+
+</html>
