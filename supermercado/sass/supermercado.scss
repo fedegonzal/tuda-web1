@@ -1,0 +1,110 @@
+$negro: #1c2529;
+$fondo-producto: #F6F6F6;
+
+$verde-claro: #7fb87f;
+$verde-oscuro: #155d15;
+
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    color: $negro;
+    margin: 0.5em 0;
+}
+
+.breadcrumb {
+    font-size: 0.8em;
+
+    a {
+        color: $negro;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+.producto {
+
+    position: relative;
+
+    .foto {
+        background-color: $fondo-producto;
+        border-radius: 10%;
+
+        img {
+            mix-blend-mode: multiply;
+            width: 80%;
+            height: 80%;
+            object-fit: contain;
+            margin: 10%;
+        }
+
+        button {
+            position: absolute;
+            z-index: 9;
+            bottom: .5em;
+            right: .5em;
+            width: 40px;
+            height: 40px;
+            font-size: 20px;
+            padding: 0;
+            font-weight: bold;
+            border-radius: 50%;
+            top: auto;
+            left: auto;
+            color: white;
+
+            background-color: $verde-claro;
+            border: none;
+
+            // las transiciones de color durarán 1 segundos
+            transition: background-color 1s;
+
+            &:hover {
+                background-color: $verde-oscuro;
+            }
+        }
+    }
+
+    .atencion {
+        color: white;
+        position: absolute;
+        top: 1em;
+        right: 1.5em;
+        padding: 0.25em 0.5em;
+        font-size: 0.8em;
+        border-radius: 10%;
+        z-index: 9;
+
+        &-organico {
+            background-color: red;
+        }
+
+        &-oferta {
+            background-color: green;
+        }
+    }
+
+    .detalle {
+
+        padding: 1em 1em 2em 1em;
+
+        h2 {
+            font-size: 18px;
+            color: $negro;
+            margin: 0;
+        }
+    
+        .precio {
+            font-size: 18px;
+            color: $negro;
+        }
+
+        p {
+            font-size: 0.8em;
+        }
+
+    }
+
+}
