@@ -83,67 +83,6 @@
     </main>
 </body>
 
-
-<script>
-    let productosJson = [
-        {
-            "precio": 3290,
-            "atencionClase": "atencion-oferta",
-            "atencionTexto": "Oferta!",
-            "foto": "imagenes/manzana.jpg",
-            "titulo": "Manzana 1",
-            "precioFormateado": "$ 3.290",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ligula urna, tincidunt et tincidunt non, rhoncus at tellus."
-        },
-        {
-            "precio": 3290,
-            "atencionClase": "atencion-oferta",
-            "atencionTexto": "Oferta!",
-            "foto": "imagenes/manzana.jpg",
-            "titulo": "Manzana 2",
-            "precioFormateado": "$ 3.290",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ligula urna, tincidunt et tincidunt non, rhoncus at tellus."
-        },
-        {
-            "precio": 3290,
-            "atencionClase": "atencion-oferta",
-            "atencionTexto": "Oferta!",
-            "foto": "imagenes/manzana.jpg",
-            "titulo": "Manzana 3",
-            "precioFormateado": "$ 3.290",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ligula urna, tincidunt et tincidunt non, rhoncus at tellus."
-        }
-    ]
-
-    let productos = document.querySelector("#productos")
-
-    for (producto of productosJson) {
-
-        let tplProducto = `
-            <article data-precio="${producto.precio}" class="producto col-6 col-md-4 col-lg-3 col-xxl-2">
-                <div class="atencion ${producto.atencionClase}">${producto.atencionTexto}</div>
-                <div class="foto -ratio ratio-1x1">
-                    <img src="${producto.foto}" alt="">
-                    <button class="btn agregar">+</button>
-                </div>
-                <div class="detalle">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <h2>${producto.titulo}</h2>
-                        <div class="precio">${producto.precioFormateado}</div>
-                    </div>
-                    <p>${producto.descripcion}</p>
-                </div>
-            </article>
-        `
-
-        productos.insertAdjacentHTML("beforeend", tplProducto)
-
-    }
-
-</script>
-
-
-
-
+<script src="javascript/productos.js"></script>
 <script src="javascript/carrito.js"></script>
 </html>

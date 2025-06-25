@@ -1,0 +1,116 @@
+[
+    {
+        "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000024000/24127.jpg",
+        "titulo": "Leche LV Entera Clasica 3% La Serenisima x 1 Lt.",
+        "precio": "2650",
+        "categoria": "Lacteos"
+    },
+    {
+        "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000024000/24129.jpg",
+        "titulo": "Leche LV Parcialmente Descremada Liviana 1% La Serenisima x 1 Lt.",
+        "precio": "2650",
+        "categoria": "Lacteos"
+    },
+    {
+        "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000014000/14092.jpg",
+        "titulo": "Queso Untable Finlandia x 290g.",
+        "precio": "5150",
+        "categoria": "Lacteos"
+    },
+    {
+        "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000023000/23110.jpg",
+        "titulo": "Queso Untable Light sin Sal Agregada Finlandia x 290 g.",
+        "precio": "5200",
+        "categoria": "Lacteos"
+    },
+    {
+        "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000014000/14088.jpg",
+        "titulo": "Queso Untable Clásico Finlandia x 290 g.",
+        "precio": "5200",
+        "categoria": "Lacteos"
+    },
+    {
+        "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000024000/24128.jpg",
+        "titulo": "Leche LV Parcialmente Descremada Clasica 2% La Serenisima x 1 Lt.",
+        "precio": "2650",
+        "categoria": "Lacteos"
+    },
+    {
+        "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000002000/2405.jpg",
+        "titulo": "Pomelo (Kg)",
+        "precio": "3150",
+        "categoria": "Frutas"
+    },
+    {
+        "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000003000/3316.jpg",
+        "titulo": "Plátano (Kg)",
+        "precio": "4350",
+        "categoria": "Frutas"
+    },
+    {
+        "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000002000/2393.jpg",
+        "titulo": "Banana Ecuador (Kg)",
+        "precio": "2990",
+        "categoria": "Frutas"
+    },
+    {
+        "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000002000/2401.jpg",
+        "titulo": "Naranja (Kg)",
+        "precio": "2499",
+        "categoria": "Frutas"
+    },
+    {
+        "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000002000/2396.jpg",
+        "titulo": "Mandarina (Kg)",
+        "precio": "2290",
+        "categoria": "Frutas"
+    },
+    {
+        "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000002000/2395.jpg",
+        "titulo": "Limón (Kg)",
+        "precio": "1990",
+        "categoria": "Frutas"
+    },
+    {
+        "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000001000/1382.jpg",
+        "titulo": "Carne Picada E/V Estancias LA x 500 g.",
+        "precio": "6250",
+        "categoria": "Carnes"
+    },
+    {
+        "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000001000/1382.jpg",
+        "titulo": "Carne Picada E/V Estancias LA x 500 g.",
+        "precio": "6250",
+        "categoria": "Carnes"
+    },
+    {
+        "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000002000/2330.jpg",
+        "titulo": "Pollo Fresco La Anónima (Kg)",
+        "precio": "4000",
+        "categoria": "Carnes"
+    },
+    {
+        "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000002000/2324.jpg",
+        "titulo": "Pollo Fresco Pollolin (Kg)",
+        "precio": "4000",
+        "categoria": "Carnes"
+    },
+    {
+        "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000028000/28177.jpg",
+        "titulo": "Vacío Best Envasado al Vacío (Kg)",
+        "precio": "14300",
+        "categoria": "Carnes"
+    },
+    {
+        "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000001000/1381.jpg",
+        "titulo": "Carne Picada M. E/V Estancias LA x 500 g.",
+        "precio": "8850",
+        "categoria": "Carnes"
+    },
+    {
+        "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000028000/28184.jpg",
+        "titulo": "Tapa de Bife Best Envasado al Vacío (Kg)",
+        "precio": "11100",
+        "categoria": "Carnes"
+    }
+]
