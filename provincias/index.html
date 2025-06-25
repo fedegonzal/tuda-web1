@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    const apiProvincias = 'https://apis.datos.gob.ar/georef/api/provincias';
+    fetch(apiProvincias)
+    .then(response => response.json())
+    .then(data => {
+        data.provincias.forEach(element => {
+            mostrarProvincia(element)
+        });
+    });
+
+    function mostrarProvincia(provincia) {
+        console.log("provincia: " + provincia.nombre);
+    }
+
+
+
+    const apiPaises = 'https://restcountries.com/v3.1/all?fields=name,flags';
+    fetch(apiPaises)
+    .then(response => response.json())
+    .then(data => {
+        data.forEach(element => {
+            mostrarPais(element)
+        });
+    });
+
+    function mostrarPais(pais) {
+        console.log("Pais: " + pais.name.common);
+    }    
+    
+</script>
+</html>
