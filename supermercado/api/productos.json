@@ -75,7 +75,9 @@
         "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000001000/1382.jpg",
         "titulo": "Carne Picada E/V Estancias LA x 500 g.",
         "precio": "6250",
-        "categoria": "Carnes"
+        "categoria": "Carnes",
+        "atencionClase": "atencion-oferta",
+        "atencionTexto": "Oferta!"
     },
     {
         "imagen": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/c/0000001000/1382.jpg",

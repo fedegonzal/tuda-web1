@@ -39,7 +39,7 @@ function formatearPrecio(precio) {
 // "precio": "2650",
 // "categoria": "Lacteos"
 
-fetch("/api/productos.json") // Simulamos una API que devuelve un JSON
+fetch("https://raw.githubusercontent.com/fedegonzal/tuda-web1/refs/heads/main/supermercado/api/productos.json") // Simulamos una API que devuelve un JSON
     .then(response => response.json())
     .then(data => {
         let productosJson = data; // Reemplazamos el array de productos con los datos de la API
