@@ -13,7 +13,7 @@ function renderizarProductos(productosJson) {
                 <div class="detalle">
                     <p>${producto.categoria}</p>
                     <div class="d-flex justify-content-between align-items-center">
-                        <h2>${producto.titulo}</h2>
+                        <h2><a href="ficha.html">${producto.titulo}</a></h2>
                         <div class="precio">${formatearPrecio(producto.precio)}</div>
                     </div>
                 </div>
