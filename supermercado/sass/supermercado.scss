@@ -1,5 +1,6 @@
 $negro: #1c2529;
 $fondo-producto: #F6F6F6;
+$amarillo-claro: #f9f9b0;
 
 $verde-claro: #7fb87f;
 $verde-oscuro: #155d15;
@@ -28,9 +29,16 @@ h1 {
 
     position: relative;
 
+    &:hover {
+        .foto {
+            background-color: $amarillo-claro;
+        }
+    }
+
     .foto {
         background-color: $fondo-producto;
         border-radius: 10%;
+
 
         img {
             mix-blend-mode: multiply;

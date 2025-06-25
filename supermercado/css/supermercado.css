@@ -19,6 +19,9 @@ h1 {
 .producto {
   position: relative;
 }
+.producto:hover .foto {
+  background-color: #f9f9b0;
+}
 .producto .foto {
   background-color: #F6F6F6;
   border-radius: 10%;
